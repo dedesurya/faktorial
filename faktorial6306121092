@@ -19,8 +19,10 @@ public class Faktorial
     int a=1;
     System.out.print("masukan bilangan  = ");
     int bilangan=s.nextInt();
-    for(int i=1; i<=bilangan; i++)
+    for(int i=1; i<=bilangan; i++) {
+        System.out.print ( i+ "x");
         a*=i;
+  }
             System.out.println(bilangan +" ! = "+a);
 
   }
